@@ -1,6 +1,6 @@
 {
     "name" : "Google Addon project",
     "description" : "Šolski projekt za prograrmiranje",
-    "version" : 1.0,
+    "version" : 1,
     "manifest_version" : 3
 }
