@@ -3,7 +3,16 @@
     "description" : "Šolski projekt za prograrmiranje",
     "version" : "1.0",
     "manifest_version" : 3,
-    "permissions" : ["storage"],
+    "background":{
+        "scripts" :["js/background.js"]
+    },
+    "permissions" :[
+        "storage",
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/",
+        "https://*/"
+    ],
     "action":{
         "default_popup" : "popup.html",
         "default_icon": {
